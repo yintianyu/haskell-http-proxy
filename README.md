@@ -9,20 +9,28 @@ This is a simple HTTP proxy that caches web objects implemented with haskell.
 3. Supporting HTTP GET and POST method
 4. Supporting to cache some objects from the web and send to another client request later
 
-## Getting Started
+## Get Started
 1. Install [Haskell Platform](https://www.haskell.org/downloads)
 2. ```cabal update```
 3. ```cabal install string```
 4. ```cabal install missingH```
 5. Install Split
-```git clone https://github.com/byorgey/split.git```
-```cd split```
-```cabal install```
+```sh
+git clone https://github.com/byorgey/split.git
+cd split
+cabal install
+```
 6. Clone this repository
-```git clone https://github.com/yintianyu/haskell-http-proxy.git```
-```cd haskell-http-proxy```
+```sh
+git clone https://github.com/yintianyu/haskell-http-proxy.git
+cd haskell-http-proxy
+```
 7. Compile
-```ghc -o proxy proxy.hs cache.hs```
+```sh
+ghc -o proxy proxy.hs cache.hs
+```
 8. Run
-```./proxy [Port Number]```
+```sh
+./proxy [Port Number]
+```
 
