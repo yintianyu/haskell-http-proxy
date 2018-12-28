@@ -13,7 +13,7 @@ This is a simple HTTP proxy that caches web objects implemented with haskell.
 1. Install [Haskell Platform](https://www.haskell.org/downloads)
 2. ```cabal update```
 3. ```cabal install string```
-4. ```cabal install missingH```
+4. ```cabal install MissingH```
 5. Install Split
 ```sh
 git clone https://github.com/byorgey/split.git
@@ -27,7 +27,7 @@ cd haskell-http-proxy
 ```
 7. Compile
 ```sh
-ghc -o proxy proxy.hs cache.hs
+make
 ```
 8. Run
 ```sh
